@@ -13,19 +13,19 @@
 </body>
 
 <script>
-  var flag = 1;
+  var flag = true;
 
   function example(){
-    if (flag == 1){
+    if (flag){
 	document.getElementById("button1").style.background = "blue";
 	document.getElementById("button1").style.color = "orange";
 	document.getElementById("button1").innerHTML = "Click me to turn back!";
-      	flag = 0;
+      	flag = false;
     } else {
 	document.getElementById("button1").style.background = "whitesmoke";
 	document.getElementById("button1").style.color = "black";
       	document.getElementById("button1").innerHTML = "Click me to turn blue!";
-      	flag = 1;
+      	flag = true;
     }
   }
 </script>
