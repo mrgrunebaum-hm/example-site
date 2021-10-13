@@ -23,13 +23,13 @@
 </body>
 
 <script>
-  var flag = 1;
+  var flag = true;
 
   function example(){
-    if (flag == 1){
+    if (flag){
 	document.getElementById("button1").style.background = "green";
     	document.getElementById("button1").innerHTML = "Click me to turn back!";
-	flag = 0;
+	flag = false;
     } else {
 	document.getElementById("button1").style.background = "whitesmoke";
 	document.getElementById("button1").innerHTML = "Click me to turn green!";
